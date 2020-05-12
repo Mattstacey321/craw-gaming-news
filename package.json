@@ -5,6 +5,9 @@
   "repository": "https://github.com/Mattstacey321/gaming-data.git",
   "author": "Mattstacey",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",

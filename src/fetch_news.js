@@ -19,6 +19,7 @@ module.exports = {
 
                 links.push({
                     i: index,
+                    source:"gameSpot",
                     article_short: article_short,
                     article_image: imageUrl,
                     article_url: `https://www.gamespot.com${article_url}`,
@@ -62,6 +63,7 @@ module.exports = {
                 var article_time = items[index].children[0].next.children[1].children[4].prev.children[1].children[3].children[3].attribs.datetime;
                 links.push({
                     i: index,
+                    source: "gameRadar",
                     article_short: article_short,
                     article_image: imageUrl,
                     article_url: article_url,
@@ -96,6 +98,7 @@ module.exports = {
 
                     links.push({
                         i: i,
+                        source: "videoGamer",
                         article_short: article_short,
                         article_image: article_image,
                         article_url: `https://www.videogamer.com${article_url}`,
