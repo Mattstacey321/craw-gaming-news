@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "faunadb": "^2.13.0",
     "lodash": "^4.17.15",
-    "moment": "^2.25.1",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.3",
     "nodemon": "^2.0.2",
     "puppeteer": "^2.1.1"
